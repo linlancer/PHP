@@ -1,0 +1,13 @@
+<?php
+$arr=array(10,5,6,3,7,1,0,2,9,4,8);
+for($i=0;$i<=count($arr);$i++){
+	for($j=$i+1;$j<=count($arr)-1;$j++){
+		if($arr[$i]<$arr[$j]){
+			$temp=$arr[$i];
+			$arr[$i]=$arr[$j];
+			$arr[$j]=$temp;
+		}
+	}
+}
+print_r($arr);
+?>

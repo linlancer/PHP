@@ -1,0 +1,6 @@
+[ 2017-03-16T16:19:30+08:00 ] ::1 /demo8/admin.php/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+ERR: 无法加载模块:Index
+
